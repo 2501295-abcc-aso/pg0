@@ -1,0 +1,162 @@
+body.HOME {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", sans-serif;
+    background-color: aliceblue;
+}
+
+body.hobby {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", sans-serif;
+    background-image: url(image/background1.jpg);
+
+}
+
+body.animal {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", sans-serif;
+    background-image: url(image/background-A2.png);
+}
+
+body.running {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", sans-serif;
+    background-color: #e0f7fa;
+}
+
+body.manga {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", sans-serif;
+    background-image: url(image/fire.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+
+}
+
+.header {
+    background-color: #ff66cc;
+    color: #ffffff;
+    padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+nav {
+    flex-shrink: 1;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 60px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+h3 {
+    font-size: 40px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.self-introductionc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px 30px;
+    min-height: calc(50vh - 30px);
+    box-sizing: border-box;
+}
+
+.text-container {
+    margin-left: 40px;
+    width: 60%;
+    text-align: left;
+}
+
+.image-container {
+    width: 60%;
+    text-align: center;
+}
+
+.image-container img {
+    width: 70%;
+    max-width: 260px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.image-container-kingdom img {
+    width: 50%;
+    max-width: 260px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.image-container-run img {
+   height: auto;
+   width: 60%;   
+}
+
+.text-div {
+    margin: 40px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    font-size: 30px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+small {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+}
+
+.small-manga{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+}
