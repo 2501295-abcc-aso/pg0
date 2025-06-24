@@ -1,13 +1,19 @@
 body.HOME {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", sans-serif;
-    background-color: #fffbe6;
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body.birtplace {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", sans-serif;
-    background-color: bisque;
+    background-image: url(image/background-A1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body.hobby {
