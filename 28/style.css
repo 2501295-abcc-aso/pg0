@@ -1,7 +1,13 @@
 body.HOME {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", sans-serif;
-    background-color: aliceblue;
+    background-color: #fffbe6;
+}
+
+body.birtplace {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", sans-serif;
+    background-color: bisque;
 }
 
 body.hobby {
@@ -15,6 +21,9 @@ body.animal {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", sans-serif;
     background-image: url(image/background-A2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body.running {
@@ -27,7 +36,7 @@ body.manga {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", sans-serif;
     background-image: url(image/fire.jpeg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: aliceblue;
@@ -84,12 +93,16 @@ nav ul li a:hover {
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 70px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 h3 {
     font-size: 40px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+p {
+    font-size: 25px;
 }
 
 .self-introductionc {
@@ -120,6 +133,7 @@ h3 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+
 .image-container-kingdom img {
     width: 50%;
     max-width: 260px;
@@ -129,12 +143,42 @@ h3 {
 }
 
 .image-container-run img {
-   height: auto;
-   width: 60%;   
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+}
+
+.image-container-shrine img {
+    width: 80%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .text-div {
-    margin: 40px auto;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    font-size: 30px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.text-div-animal {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    font-size: 30px;
+    border-radius: 8px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.text-div-manga {
+    margin: 10px ;
     padding: 20px;
     width: 90%;
     max-width: 600px;
